@@ -1,0 +1,45 @@
+{
+    "type": "multi_action",
+    "title": "Locator Bar Colors",
+    "body": [
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "compass"
+            }
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": "Choose what color to make your locator bar icon"
+        }
+    ],
+    "inputs": [
+        {
+            "type": "single_option",
+            "key": "default_green_key",
+            "label_visible": false,
+            "label": "",
+            "width": 10,
+            "options": [
+                {
+                    "id": "default_green",
+                    "display": "GREEN"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "label": "GREEN",
+            "width": 10,
+            "action": {
+                "type": "run_command",
+                "command": "summon sheep ~ ~ ~"
+            }
+        }
+    ],
+    "columns": 2,
+    "exit_action": {
+        "label": "Back"
+    }
+}

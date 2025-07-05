@@ -1,0 +1,17 @@
+{
+	"pack": {
+		"description": [
+			{ "text": "v1.0.0", "color": "green" },
+			{
+				"text": "\nCustomize locator bar colors",
+				"color": "white"
+			},
+			{ "text": "\nBy SuperDyl", "color": "white" }
+		],
+		"pack_format": 81,
+		"supported_formats": {
+			"min_inclusive": 72,
+			"max_inclusive": 81
+		}
+	}
+}
